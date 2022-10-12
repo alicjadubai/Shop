@@ -1,3 +1,7 @@
+.container {
+    width: 1352px
+}
+
 /* navPanel */
 .navPanel {
     display: flex;
@@ -53,4 +57,63 @@ li a {
 
 li a:hover {
     color: #000000;
+}
+
+/* header */
+header {
+    background: url('../Images/Background.png');
+    width: 100vw;
+    height: calc(100vh - 70px);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    object-position: 0 -20%;
+}
+
+header .container {
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-row-first {
+
+    text-align: center;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+header p {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container a {
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    text-decoration: none;
+
+    color: white;
+    align-self: center;
+    padding: 18px 100px
 }
