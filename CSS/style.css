@@ -5,9 +5,7 @@ h3 {
     text-align: center;
 }
 
-section {
-    margin: 100px 0;
-}
+
 
 .container {
     width: 1352px
@@ -130,9 +128,12 @@ header p {
 }
 
 /* statistics */
+
+
 main {
     display: flex;
     justify-content: center;
+    margin: 100px 0;
 }
 
 h2 {
