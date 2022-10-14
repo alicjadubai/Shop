@@ -411,3 +411,67 @@ h3 {
     align-items: center;
     gap: 20px
 }
+
+section.contact {
+    margin: 100px 0;
+}
+
+.contact .container {
+    display: flex;
+    gap: 50px
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 20px
+}
+
+.contact-details {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+}
+
+.contact-details-email,
+.contact-details-phone {
+    display: flex;
+    align-items: center;
+}
+
+.any-questions p {
+    line-height: 70px;
+    text-align: left;
+    font-family: "Open Sans"
+}
+
+.any-questions h1 {
+    text-align: left;
+}
+
+
+input {
+    letter-spacing: 3.28px;
+    color: #08A6E4;
+    font-family: "Open Sans";
+    line-height: 35px;
+    border: 0
+}
+
+.form a {
+    align-self: flex-end;
+}
+
+label {
+    font-family: "Open Sans";
+    font-size: 12px
+}
+
+.checkbox input:checked+span {
+
+    width: 11px;
+    height: 11px;
+
+    background: transparent url('../Images/Checkmark.svg') 0% 0% no-repeat padding-box;
+}
