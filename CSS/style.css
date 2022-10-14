@@ -475,3 +475,37 @@ label {
 
     background: transparent url('../Images/Checkmark.svg') 0% 0% no-repeat padding-box;
 }
+
+footer {
+    height: 89px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+}
+
+.footer-corporate-name {
+    text-align: left;
+    font-family: "Raleway";
+    font-size: 26px;
+    letter-spacing: 0px;
+    color: #08A6E4;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    margin: 0 auto
+}
+
+.footer-corporate p {
+    font-family: "Open Sans";
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px
+}
