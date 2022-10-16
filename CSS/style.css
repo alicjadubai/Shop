@@ -67,6 +67,7 @@ li a {
     letter-spacing: 3.28px;
     color: #A5A5A5;
     text-decoration: none;
+    font-weight: 700;
 }
 
 li a:hover {
@@ -201,7 +202,7 @@ span.statistics-card-green {
     background: #55DFB4 0% 0% no-repeat padding-box;
 }
 
-.statistics-card svg {
+.statistics-card img {
     position: absolute;
     top: 6px;
 
@@ -450,28 +451,60 @@ section.contact {
     text-align: left;
 }
 
-
 input {
-    letter-spacing: 3.28px;
-    color: #08A6E4;
-    font-family: "Open Sans";
-    line-height: 35px;
-    border: 0
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #07ACE6;
+    line-height: 0.9rem;
+    letter-spacing: 3px;
+    font-size: 0.6875rem;
+    border: 0;
+    border-bottom: 1px solid grey;
+    line-height: 0.9rem;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.375rem;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
 .form a {
     align-self: flex-end;
 }
 
-label {
+label p {
     font-family: "Open Sans";
-    font-size: 12px
+    font-size: 12px;
+    text-align: left;
+}
+
+.checkbox .checkbox_span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .checkbox input:checked+span {
-
-    width: 11px;
-    height: 11px;
+    background-position: center;
 
     background: transparent url('../Images/Checkmark.svg') 0% 0% no-repeat padding-box;
 }
