@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+#titlerow {
+
+    display: none;
+}
+
+.ms-belltown-pageName {
+
+    display: none;
+}
+
+#DeltaPageStatusBar {
+    display: none;
+}
+
+
+
+header {
+    height: calc(100vh - 85px);
+    background: url("https://hqmncnetest.sharepoint.com/sites/JOC/SiteAssets/artboard.png");
+    background-size: contain
+}

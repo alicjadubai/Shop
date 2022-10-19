@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#titlerow {
+
+    display: none;
+}
+
+.ms-belltown-pageName {
+
+    display: none;
+}
+
+#DeltaPageStatusBar {
+    display: none;
+}
+
+.contentwrapper {
+    margin: 0;
+
+}
+
+header {
+    height: calc(100vh - 85px);
+}
